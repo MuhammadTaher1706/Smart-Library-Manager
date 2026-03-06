@@ -1,0 +1,3 @@
+/Users/muhammadtaher/Desktop/Smart-Library-Manager/cmake-build-debug/CMakeFiles/SmartLibraryManager.dir
+/Users/muhammadtaher/Desktop/Smart-Library-Manager/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/muhammadtaher/Desktop/Smart-Library-Manager/cmake-build-debug/CMakeFiles/rebuild_cache.dir
