@@ -6,4 +6,5 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(SmartLibraryManager
         Book.h
         Book.cpp
-        User.h)
+        User.h
+        User.cpp)

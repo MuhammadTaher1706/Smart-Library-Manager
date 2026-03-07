@@ -22,14 +22,37 @@ public:
     const auto getBorrowedBooks()const;
     int getMaxSize()const;
 
-    int getNumBooks()const;
+    size_t getNumBooks()const;
 
     void BorrowBook(std::unique_ptr<Book> b1);
-    void returnBook(std::unique_ptr<Book> b1);
+    std::unique_ptr<Book> returnBook(int id);
 
     bool hasBorrowed(int id);
 
+    string printBooks()const;
+
     virtual ~User();
-    virtual void print()const=0;
+    string print()const;
     virtual string getType()const=0;
 };
+
+
+class Student:public User {
+public:
+    Student(int id,string name,string email);
+    string getType() const override;
+};
+
+class FacultyMem:public User {
+public:
+    FacultyMem(int id,string name,string email);
+    string getType() const override;
+};
+
+class Librarian:public User {
+public:
+    Librarian(int id,string name,string email);
+    string getType() const override;
+};
+
+std::ostream& operator<<(std::ostream& os,const User& u1);

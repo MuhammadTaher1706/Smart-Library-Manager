@@ -55,6 +55,12 @@ build CMakeFiles/SmartLibraryManager.dir/Book.cpp.o: CXX_COMPILER__SmartLibraryM
   OBJECT_DIR = CMakeFiles/SmartLibraryManager.dir
   OBJECT_FILE_DIR = CMakeFiles/SmartLibraryManager.dir
 
+build CMakeFiles/SmartLibraryManager.dir/User.cpp.o: CXX_COMPILER__SmartLibraryManager_unscanned_Debug /Users/muhammadtaher/Desktop/Smart-Library-Manager/User.cpp || cmake_object_order_depends_target_SmartLibraryManager
+  DEP_FILE = CMakeFiles/SmartLibraryManager.dir/User.cpp.o.d
+  FLAGS = -Wall -pedantic-errors -Werror -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/SmartLibraryManager.dir
+  OBJECT_FILE_DIR = CMakeFiles/SmartLibraryManager.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target SmartLibraryManager
@@ -63,7 +69,7 @@ build CMakeFiles/SmartLibraryManager.dir/Book.cpp.o: CXX_COMPILER__SmartLibraryM
 #############################################
 # Link the executable SmartLibraryManager
 
-build SmartLibraryManager: CXX_EXECUTABLE_LINKER__SmartLibraryManager_Debug CMakeFiles/SmartLibraryManager.dir/Book.cpp.o
+build SmartLibraryManager: CXX_EXECUTABLE_LINKER__SmartLibraryManager_Debug CMakeFiles/SmartLibraryManager.dir/Book.cpp.o CMakeFiles/SmartLibraryManager.dir/User.cpp.o
   FLAGS = -Wall -pedantic-errors -Werror -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk
   OBJECT_DIR = CMakeFiles/SmartLibraryManager.dir
   POST_BUILD = :
