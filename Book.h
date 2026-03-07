@@ -4,6 +4,8 @@
 #pragma once
 #include <string>
 using std::string;
+
+
 class Book {
     int id;
     string title;
@@ -25,10 +27,13 @@ public:
     int getTotalCopies()const;
     int getAvailbleCopies()const;
 
-    bool isAvailble();
+    bool isAvailble()const;
 
     void borrowCopy();
     void returnCopy();
 
-    friend std::ostream& operator<<(std::ostream& os,const Book& b1);
+    void addCopy();
+
 };
+
+std::ostream& operator<<(std::ostream& os,const Book& b1);
