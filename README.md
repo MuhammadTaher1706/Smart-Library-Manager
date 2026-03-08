@@ -15,12 +15,11 @@ A C++ smart library management system implementing Object-Oriented Programming p
 
 SmartLibraryManager
 │
+
 ├── Book.h / Book.cpp
+
 ├── User.h / User.cpp
-├── Student.h / Student.cpp
-├── FacultyMember.h / FacultyMember.cpp
-├── Librarian.h / Librarian.cpp
-│
+
 └── Library.h / Library.cpp
 
 ## OOP Concepts Used
