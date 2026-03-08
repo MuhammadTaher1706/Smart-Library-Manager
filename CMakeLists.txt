@@ -8,4 +8,5 @@ add_executable(SmartLibraryManager
         Book.cpp
         User.h
         User.cpp
-        Library.h)
+        Library.h
+        Library.cpp)
